@@ -2,7 +2,7 @@
   "name": "jwt-node-api",
   "version": "1.0.0",
   "description": "A simple NodeJS server that serves as an API gateway to the Supabase REST API and its resources",
-  "main": "server.js",
+  "main": "index.html",
   "repository": "git@github.com:benji011/jwt-node-api.git",
   "author": "benji011 <wolfnun011@gmail.com>",
   "license": "MIT",
@@ -22,7 +22,6 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "start": "nodemon ./server.js",
     "prettier": "prettier --config .prettierrc '**/*.js' --write"
   }
 }
